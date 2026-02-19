@@ -3,4 +3,5 @@ project(cpplearn)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpplearn main.cpp)
+add_executable(cpplearn main.cpp
+        multi_component.cpp)
